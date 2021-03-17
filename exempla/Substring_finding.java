@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Substring_finding {
 	public static void main (String arg[]) {
 		try (Scanner input = new Scanner(System.in)) {
+			System.out.println("Enter two lines:");
 			String mstr = input.nextLine();
 			String sstr = input.nextLine();
 			if (mstr.indexOf(sstr) != -1) {
